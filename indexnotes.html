@@ -1,0 +1,70 @@
+<!-- Defining the document as an HTML document -->
+<!DOCTYPE html>
+<html>
+<!-- The head tag contains meta data about the page. -->
+    <head>
+        <h1>My First Web Page</h1>
+        <link href="mystyle.css" rel="stylesheet">
+    </head>
+
+<!-- The main 'body' of the page, everything here will be displayed. -->
+    <body>
+        <h1><b>Tags</b></h1>
+        <P class="outset">Tags are important parts of html. Here are examples of the different types: <P>
+        
+        <h2><b>Heading tags</b></h2>
+        <h1>This is heading 1, the largest heading. It's defined with the 'h1' tag.</h1>
+        <h2>This is heading 2. It's defined with the 'h2' tag.</h2>
+        <h3>This is heading 3. It's defined with the 'h3' tag.</h3>
+        <h4>This is heading 4. It's defined with the 'h4' tag.</h4>
+        <h5>This is heading 5. It's defined with the 'h5' tag.</H5>
+        <h6>This is heading 6, the smallest heading. It's defined with the 'h6' tag.</h6>
+
+        <h2><b>Feature tags</b></h2>
+        <P>Web pages can include text, links, tables, images and even tables.<P>
+        <P>Paragraphs hold text. They are placed below headings. It's defined with the 'P' tag. There are automatically line breaks between paragraphs. However, html doesn't automatically have line breaks for content within paragraphs. This has to be done manually, with the 'br' tag. <br> The 'br' tag doesn't need an end tag.</P>
+
+        <P><i>Attributes provide additional information about HTML elements (anything that goes between a start and end tag).</i></P>
+        <P>Links are defined with the 'a' tag, which stands for 'anchor'. They use the href (hypertext reference) attribute, which specifies the URL of the page the link goes to.</P>
+        <a href = 'https://th.bing.com/th/id/OIP._hpC-igCwQ1rz8VC9Sj4UgHaEo?pid=ImgDet&rs=1'>For example, this is a link to a separate page showing the image of a sunset.</a>
+        <P>However, the image of the sunset can be viewed on the webpage itself using the 'img' tag. They use the 'src' (source file), 'alt' (alternative text), 'width' and 'height' attributes are used. It doesn't have a closing tag.</P>
+        <img src="https://th.bing.com/th/id/OIP._hpC-igCwQ1rz8VC9Sj4UgHaEo?pid=ImgDet&rs=1" alt = 'For example, like this: ' width = '104' height = '142'>
+        <P>Tables can be inserted with a 'table' tag. These tags have to include a minimum of one row tag which itself surrounds a column tag. For example:</P>
+        <table><tr><td></td></tr></table>
+
+        <h2><b>Style tags</b></h2>
+        <p>These aren't used that much anymore because now we have CSS, but they're still useful to know.</p>
+        <b>The 'b' and 'strong' tag both do the same thing, bolding the sentence.</b> <br>
+        <i>The 'i' and 'em' tag also do the same thing, slanting the sentence.</i> <br>
+        <u>The 'u' tag undelines the sentence.</u> <br>
+        
+        <h2><b>Divisions</b></h2>
+        <div>
+            <p>Divisions define a section or division within the HTML document. This makes it easier to apply styles to different types of tags by grouping them into sections.</p>
+        </div>
+
+        <h2><b>List tags</b></h2>
+        <p>The 'li' tag defines a list item. There are 2 main types of lists.</p>
+        <h4>Ordered list: </h4>
+        <ol>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Mangoes</li>
+        </ol>
+        <p>Although the default order starts with 1, 2, 3 etc. You can add the value attrubute to change this in an ordered list. For example like this: </p>
+        <ol>
+            <li value = "100">Cabbage</li>
+            <li>Broccoli</li>
+            <li>Aubergine</li>
+        </ol>
+        <h4>Unordered lists: </h4>
+        <ul>
+            <li>Water</li>
+            <li>Milk</li>
+            <li>Fruit juice</li>
+        </ul>
+
+        <h2>Script tags</h2>
+        <p>These are used to embed a client-side script (JavaScript) and use the 'script' tag.</p>
+    </body>
+</html>
